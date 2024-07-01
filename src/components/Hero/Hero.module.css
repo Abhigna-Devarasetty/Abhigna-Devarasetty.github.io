@@ -35,9 +35,20 @@
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  height: 36px;
+  /* Ensures consistent height during animation */
+  display: flex;
+  align-items: center;
 }
 
-.contactBtn {
+.buttons {
+  display: flex;
+  gap: 20px;
+  /* Adds space between the buttons */
+}
+
+.contactBtn,
+.resumeBtn {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -46,13 +57,18 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s;
+}
+
+.contactBtn:hover,
+.resumeBtn:hover {
+  background-color: var(--color-primary-dark);
 }
 
 .heroImg {
   width: 50%;
   z-index: 1;
   border-radius: 50%;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -78,7 +94,6 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -91,7 +106,6 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -25vw;
@@ -107,6 +121,13 @@
   }
 
   .content {
+    align-items: center;
+    text-align: center;
+    /* Center align text on smaller screens */
+  }
+
+  .buttons {
+    flex-direction: column;
     align-items: center;
   }
 }

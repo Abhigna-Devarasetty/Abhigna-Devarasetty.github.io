@@ -1,5 +1,5 @@
 import React from "react";
-
+import Typical from "react-typical";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -7,16 +7,36 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>
-          Hi, I'm Venkata Sai Abhigna Devarasetty
-        </h1>
+        <h1 className={styles.title}>Hi, I'm Abhigna Devarasetty</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          <Typical
+            loop={Infinity}
+            wrapper="b"
+            steps={[
+              "I'm a Data Scientist",
+              5000,
+              "I'm a Data Analyst",
+              5000,
+              "I'm a Full Stack Developer",
+              5000,
+              "I'm a Frontend Engineer",
+              5000,
+            ]}
+          />
         </p>
-        <a href="mailto:vdevaras@iu.edu" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.buttons}>
+          <a href="mailto:vdevaras@iu.edu" className={styles.contactBtn}>
+            Contact Me
+          </a>
+          <a
+            href="/abhigna_devarasetty_resume.pdf"
+            className={styles.resumeBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Resume
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/abhigna_1.jpeg")}
