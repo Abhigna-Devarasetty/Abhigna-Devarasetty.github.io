@@ -51,17 +51,17 @@ export const About = () => {
               <p style={{ marginBottom: "20px" }}>
                 Hi, I'm Abhigna Devarasetty! 🌟 Currently, I'm diving deep into
                 the world of Data Science at Indiana University Bloomington. My
-                toolkit includes Java, Python, SQL, and React, which I use to
-                craft data-driven solutions that make a difference. 💻📊
+                toolkit includes Python, SQL, and React, which I use to craft
+                data-driven solutions that make a difference.
               </p>
               <p>
                 With my background in data science, analytics, and machine
                 learning, I can help your organization unlock the power of data
                 to drive insightful decisions and create meaningful impacts.
-                📈🔍 Whether it's developing advanced machine learning models,
+                Whether it's developing advanced machine learning models,
                 enhancing data visualization techniques, or optimizing system
                 efficiencies, I'm here to contribute to impactful projects that
-                advance the field. Let's make data magic happen! 🚀✨
+                advance the field. Let's make data magic happen!
               </p>
             </div>
           </li>
