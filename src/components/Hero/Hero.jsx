@@ -11,16 +11,16 @@ export const Hero = () => {
         <p className={styles.description}>
           <Typical
             loop={Infinity}
-            wrapper="b"
+            wrapper="p"
             steps={[
               "I'm a Data Scientist",
-              5000,
+              3000,
               "I'm a Data Analyst",
-              5000,
+              3000,
               "I'm a Full Stack Developer",
-              5000,
+              3000,
               "I'm a Frontend Engineer",
-              5000,
+              3000,
             ]}
           />
         </p>
