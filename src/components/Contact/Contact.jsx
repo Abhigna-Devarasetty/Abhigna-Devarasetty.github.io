@@ -12,22 +12,33 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:vdevaras@iu.edu">vdevaras@iu.edu</a>
-        </li>
-        <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/abhignadevarasetty/">
-            linkedin.com/in/abhignadevarasetty
+          <a href="mailto:vdevaras@iu.edu">
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          </a>
+          <a href="mailto:vdevaras@iu.edu">
+            <p>vdevaras@iu.edu</p>
           </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          <a href="https://www.linkedin.com/in/abhignadevarasetty/">
+            <img
+              src={getImageUrl("contact/linkedinIcon.png")}
+              alt="LinkedIn icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/abhignadevarasetty/">
+            <p>linkedin.com/in/abhignadevarasetty</p>
+          </a>
+        </li>
+        <li className={styles.link}>
           <a href="https://github.com/Abhigna-Devarasetty">
-            github.com/Abhigna-Devarasetty
+            <img
+              src={getImageUrl("contact/githubIcon.png")}
+              alt="Github icon"
+            />
+          </a>
+          <a href="https://github.com/Abhigna-Devarasetty">
+            <p>github.com/Abhigna-Devarasetty</p>
           </a>
         </li>
       </ul>
