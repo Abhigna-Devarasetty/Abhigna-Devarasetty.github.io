@@ -23,21 +23,17 @@ export const Skills = () => {
           })}
         </div>
         <ul className={styles.history}>
-          {education.map((historyItem, id) => {
+          {education.map((educationItem, id) => {
             return (
-              <li key={id} className={styles.historyItem}>
-                <img
-                  src={getImageUrl(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
-                />
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences.map((experience, id) => {
+              <li key={id} className={styles.educationItem}>
+                <div className={styles.educationItemDetails}>
+                  <h3>{`${educationItem.course} - ${educationItem.university}`}</h3>
+                  <p>{`${educationItem.startDate} - ${educationItem.endDate}`}</p>
+                  {/* <ul>
+                    {educationItem.experiences.map((experience, id) => {
                       return <li key={id}>{experience}</li>;
                     })}
-                  </ul>
+                  </ul> */}
                 </div>
               </li>
             );

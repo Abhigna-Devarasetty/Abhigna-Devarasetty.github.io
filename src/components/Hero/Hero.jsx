@@ -7,7 +7,8 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Abhigna Devarasetty</h1>
+        <h1 className={styles.title}>Hi, </h1>
+        <h1 className={styles.title}>I'm Abhigna Devarasetty</h1>
         <p className={styles.description}>
           <Typical
             loop={Infinity}
@@ -34,7 +35,7 @@ export const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            View Resume
+            My Resume
           </a>
         </div>
       </div>
