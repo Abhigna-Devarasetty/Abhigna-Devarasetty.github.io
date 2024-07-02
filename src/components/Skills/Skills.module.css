@@ -60,7 +60,7 @@
     font-weight: 500;
 }
 
-.history {
+.education {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -113,7 +113,7 @@
         justify-content: center;
     }
 
-    .history {
+    .education {
         width: 100%;
         gap: 9px;
     }

@@ -82,10 +82,11 @@
 
   .aboutItems {
     margin-top: 29px;
+    margin-left: 0;
   }
 
   .aboutItem {
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 0;
   }
 }

@@ -123,6 +123,7 @@
   .content {
     align-items: center;
     text-align: center;
+    margin-top: 50px;
     /* Center align text on smaller screens */
   }
 

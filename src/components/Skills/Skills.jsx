@@ -22,7 +22,7 @@ export const Skills = () => {
             );
           })}
         </div>
-        <ul className={styles.history}>
+        <ul className={styles.education}>
           {education.map((educationItem, id) => {
             return (
               <li key={id} className={styles.educationItem}>
