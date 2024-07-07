@@ -1,26 +1,16 @@
 [
   {
-    "title": "Project A",
+    "title": "Wellness Tracker",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "A fitness tracking database application that helps users monitor and improve their fitness and health by tracking various metrics and providing insights.",
+    "skills": ["R", "SQL", "R Shiny", "PostgreSQL"],
+    "source": "https://github.com/Abhigna-Devarasetty/wellness_tracker"
   },
   {
-    "title": "Project B",
+    "title": "LinkedIn Job Market Analysis",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Analyzing LinkedIn job postings to uncover job market trends and insights using cloud-based data processing and visualization tools.",
+    "skills": ["GCP", "BigQuery", "Looker", "Python"],
+    "source": "https://github.com/Abhigna-Devarasetty/linkedin_job_market_analysis"
   }
 ]
