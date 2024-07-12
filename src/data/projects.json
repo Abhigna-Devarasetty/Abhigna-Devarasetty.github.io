@@ -1,16 +1,77 @@
 [
   {
     "title": "Wellness Tracker",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Wellness_Tracker.jpg",
     "description": "A fitness tracking database application that helps users monitor and improve their fitness and health by tracking various metrics and providing insights.",
     "skills": ["R", "SQL", "R Shiny", "PostgreSQL"],
     "source": "https://github.com/Abhigna-Devarasetty/wellness_tracker"
   },
   {
     "title": "LinkedIn Job Market Analysis",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/LinkedIn_Job_Market_Analysis.jpg",
     "description": "Analyzing LinkedIn job postings to uncover job market trends and insights using cloud-based data processing and visualization tools.",
     "skills": ["GCP", "BigQuery", "Looker", "Python"],
     "source": "https://github.com/Abhigna-Devarasetty/linkedin_job_market_analysis"
+  },
+  {
+    "title": "OutfitAI",
+    "imageSrc": "projects/OutfitAI.jpg",
+    "description": "A multimodal GenAI application analyzing clothing images to recommend similar items and purchase locations.",
+    "skills": ["LangChain", "Vertex AI", "Streamlit"],
+    "source": "https://github.com/Abhigna-Devarasetty/outfit_ai"
+  },
+  {
+    "title": "Cross-modal MRI Registration using U-Net based Models",
+    "imageSrc": "projects/Cross_modal_MRI_Registration.jpg",
+    "description": "Enhancing cross-modal MRI image registration using advanced U-Net based deep learning models for improved medical imaging.",
+    "skills": ["U-Net", "VoxelMorph", "MRI Data", "CNN"],
+    "source": "https://github.com/Abhigna-Devarasetty/mri_registration"
+  },
+  {
+    "title": "Walmart Sales Forecasting",
+    "imageSrc": "projects/Walmart_Sales_Forecasting.jpg",
+    "description": "Predicting future sales for Walmart using various time series and machine learning models to optimize inventory and workforce management.",
+    "skills": ["Python", "Flask", "Matplot-lib", "Scikit-learn"],
+    "source": "https://github.com/Abhigna-Devarasetty/walmart_sales_forecasting"
+  },
+  {
+    "title": "Pichu Search and Placement",
+    "imageSrc": "projects/project.png",
+    "description": "A project involving the parsing of a map, searching for a path within a matrix, and placing elements while avoiding revisited nodes.",
+    "skills": ["Python", "BFS", "DFS", "Matrix Manipulation"],
+    "source": "https://github.com/Abhigna-Devarasetty/a-star-search"
+  },
+  {
+    "title": "Bird Sorting with A* search",
+    "imageSrc": "projects/A_star_Search.jpg",
+    "description": " Implementing A* search with heuristic functions to efficiently solve sorting and complex puzzle problems, optimizing the solution path.",
+    "skills": ["Python", "Priority Queue", "Heuristic Functions"],
+    "source": "https://github.com/Abhigna-Devarasetty/Bird-Sorting-and-Puzzle-Solving-with-A-Search"
+  },
+  {
+    "title": "Text Classifier",
+    "imageSrc": "projects/Text_Classifier.jpg",
+    "description": "Implementing a strategy for a board game involving Pichu, Pikachu, and Raichu using heuristic-based search algorithms to determine the best moves and capture all opponent pieces and a Naive Bayes classifier to categorize hotel reviews into fake or legitimate using text preprocessing and probabilistic modeling for improved accuracy.",
+    "skills": ["Naive Bayes", "NLP", "NLTK"],
+    "source": "https://github.com/Abhigna-Devarasetty/Raichu-Board-Game-Strategy-and-Naive-Bayes-Text-Classifier"
+  },
+  {
+    "title": "Parts of Speech Tagging",
+    "imageSrc": "projects/pos_tagging.jpg",
+    "description": "Implementing parts of speech tagging using multiple approaches such as Simplified Bayes Net, Viterbi-HMM and Markov Chain Monte Carlo - Gibbs Sampling",
+    "skills": ["Hidden Markov Models", "Simplified Bayes Net", "NLP", "NLTK"],
+    "source": "https://github.com/Abhigna-Devarasetty/parts-of-speech"
+  },
+  {
+    "title": "KNN and MLP implementation from scratch",
+    "imageSrc": "projects/KNN_and_MLP_Implementation.jpg",
+    "description": "Implementing classification algorithms to predict data classes using two different approaches i.e, KNN(K-Nearest Neighbors Classification) and MLP (Multilayer Perceptron Classification)",
+    "skills": [
+      "Python",
+      "One-Hot Encoding",
+      "Classification",
+      "Heuristic Functions"
+    ],
+    "source": "https://github.com/Abhigna-Devarasetty/KNN-MLP-scratch"
   }
 ]

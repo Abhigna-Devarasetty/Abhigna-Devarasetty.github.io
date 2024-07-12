@@ -14,13 +14,13 @@ export const Hero = () => {
             loop={Infinity}
             wrapper="p"
             steps={[
-              "I'm a Data Scientist",
+              "Data Scientist",
               3000,
-              "I'm a Data Analyst",
+              "Data Analyst",
               3000,
-              "I'm a Full Stack Developer",
+              "Full Stack Developer",
               3000,
-              "I'm a Frontend Engineer",
+              "Frontend Engineer",
               3000,
             ]}
           />
