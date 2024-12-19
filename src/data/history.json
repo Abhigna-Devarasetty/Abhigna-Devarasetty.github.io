@@ -1,34 +1,47 @@
 [
   {
-    "role": "Apprentice Leader",
-    "organisation": "Mu Sigma",
-    "startDate": "Jun, 2022",
-    "endDate": "Jul, 2022",
+    "role": "Data Analyst",
+    "organisation": "Sabhya Technologies",
+    "startDate": "Present",
+    "endDate": "Oct, 2024",
     "experiences": [
-      "Led a team of 8 to develop a comprehensive ML data catalog, documenting techniques, flows, and pipelines from scratch, enhancing data organization, accessibility, and project efficiency",
-      "Guided a team of developers through complex project challenges, enforcing best practices and efficient workflows; resulted in a 20% rise in user engagement and 10% faster feature deployment"
+      "Automated dataset transformation processes in Odoo through custom Python scripts; reduced manual entry time by 50 hours monthly while enhancing reporting accuracy to support strategic decision-making within the sales team",
+      "Created customized dual-view quotation reports in Odoo, enhancing internal and customer sales experience; improved report generation time by 40%, enabling faster decision-making for the sales team and clients",
+      "Analyzed business requirements and supported the implementation of Odoo CRM and Inventory modules, optimizing workflows and operational efficiency"
     ]
   },
   {
-    "role": "Data Scientist - II",
+    "role": "Data Scientist - Senior consultant",
+    "organisation": "Hoosier Community Network",
+    "startDate": "Present",
+    "endDate": "Jul, 2024",
+    "experiences": [
+      "Built and maintained scalable data pipelines using SQL and Python, reducing manual effort by 40% and improving data accuracy",
+      "Directed and Developed Tableau dashboards to visualize health data, reducing report generation time by 30% and aiding data-driven decisions",
+      "Established a sales forecasting model using statistical techniques and ML algorithms, with 75% accuracy on e-commerce company’s historical data, enhancing decision-making and inventory management",
+      "Analyzed job postings using Google Cloud Platform, BigQuery, and Looker Studio to extract insights on trends, skill demands, and hiring patterns, enhancing data-driven decision-making"
+    ]
+  },
+  {
+    "role": "Data Scientist - 2",
     "organisation": "Mu Sigma",
     "startDate": "Jan, 2021",
-    "endDate": "May, 2022",
+    "endDate": "Jul, 2022",
     "experiences": [
-      "Spearheaded the migration from in-house language Phoenix to React, achieving a 35% performance improvement and enhancing user experience and system efficiency",
-      "Deployed Elastic Search, reducing search times from 10 to 5 seconds, which enhanced user productivity and data accessibility",
-      "Collaborated with multidisciplinary teams to translate user requirements into technical solutions, bridging the gap between software development and data science"
+      "Guided a team of data scientists through complex analytical challenges, enforcing best practices in model development and data preprocessing, resulting in a 20% rise in model accuracy and 10% faster data pipeline deployment",
+      "Directed Elasticsearch for data retrieval, reducing query times from 10 to 2 seconds, which enhanced data accessibility and user productivity in analytical tasks",
+      "Conducted A/B testing and collaborated with multidisciplinary teams, including Product and Engineering, to convert user requirements into technical solutions, bridging the gap between software development and data science"
     ]
   },
   {
-    "role": "Data Scientist - I",
+    "role": "Data Scientist - 1",
     "organisation": "Mu Sigma",
     "startDate": "May, 2019",
     "endDate": "Dec, 2020",
     "experiences": [
-      "Addressed bug fixes and implemented feature enhancements in the algorithm team, resulting in 10%-15% daily returns on trades through statistical pair formation",
-      "Developed data visualization strategies to convey complex trading insights, enabling end-users to make informed decisions and achieve at least 10% returns on each trade",
-      "Incorporated statistical techniques like correlation analysis to identify high-potential currency pairs (correlation ≥ 0.7), enhancing team profitability and data-driven decision-making"
+      "Optimized data preprocessing and implemented advanced feature engineering techniques for pair selection algorithms,improving model performance by 10%-15% in predicting high-potential stock pairs for trading",
+      "Designed comprehensive dashboards using advanced analytics tools, facilitating real-time monitoring of key performance indicators within the trading workflow; achieved up to five actionable insights daily for optimizing strategy execution without team intervention",
+      "Implemented and refined predictive algorithms to identify the top 30 stock pairs based on correlation and market trends, automating $10,000 trades per pair daily and driving data-driven decision-making to enhance team profitability"
     ]
   }
 ]
