@@ -49,19 +49,16 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
               <p style={{ marginBottom: "20px" }}>
-                Hi, I'm Abhigna Devarasetty! 🌟 Currently, I'm diving deep into
-                the world of Data Science at Indiana University Bloomington. My
-                toolkit includes Python, SQL, and React, which I use to craft
-                data-driven solutions that make a difference.
-              </p>
-              <p>
-                With my background in data science, analytics, and machine
-                learning, I can help your organization unlock the power of data
-                to drive insightful decisions and create meaningful impacts.
-                Whether it's developing advanced machine learning models,
-                enhancing data visualization techniques, or optimizing system
-                efficiencies, I'm here to contribute to impactful projects that
-                advance the field. Let's make data magic happen!
+                Hi, I'm Abhigna Devarasetty! 🌟 Data scientist with four years
+                of experience leveraging machine learning and analytics;
+                recognized for developing predictive models that achieved up to
+                75\% accuracy while optimizing data pipelines that cut report
+                generation time by 30\%. Led cross-functional teams to implement
+                data visualization strategies and automated processes that
+                reduced manual entry time by over 50 hours monthly. Promoted
+                within a year at Mu Sigma Business Solutions for driving
+                significant improvements in model performance and operational
+                efficiency.
               </p>
             </div>
           </li>
