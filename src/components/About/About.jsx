@@ -49,11 +49,11 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
               <p style={{ marginBottom: "20px" }}>
-                Hi, I'm Abhigna Devarasetty! 🌟 Data scientist with four years
-                of experience leveraging machine learning and analytics;
+                Hi, I'm Abhigna Devarasetty! 🌟 I'm a Data scientist with four
+                years of experience leveraging machine learning and analytics;
                 recognized for developing predictive models that achieved up to
-                75\% accuracy while optimizing data pipelines that cut report
-                generation time by 30\%. Led cross-functional teams to implement
+                75% accuracy while optimizing data pipelines that cut report
+                generation time by 30%. Led cross-functional teams to implement
                 data visualization strategies and automated processes that
                 reduced manual entry time by over 50 hours monthly. Promoted
                 within a year at Mu Sigma Business Solutions for driving
